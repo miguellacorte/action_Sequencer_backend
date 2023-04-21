@@ -23,7 +23,7 @@ module.exports = (app) => {
   app.use(
     cors({
       credentials: true,
-      origin: [process.env.ORIGIN || "http://localhost:3000", "https://action-sequencer.onrender.com"],
+      origin: [process.env.ORIGIN || "http://localhost:3000/", "https://action-sequencer.onrender.com"],
     })
   );
 
